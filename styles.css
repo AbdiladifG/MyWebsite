@@ -5,24 +5,27 @@
 }
 
 header {
-    width: 50%;
+    width: 100%;
     height: 50px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     position: fixed;
     top: 0;
+    background-color: #ebebde;
+    color: #4C3C3C;
 }
 
 h1 {
-    font-size: min(5vw, 1.2em);
+    font-size: min(5vw, 1.5em);
     text-align: center;   
 }
 
 nav {
-    width: 50%;
-    max-width: 300px;
+    width: 100%;
+    max-width: 400px;
     height: 50px;
+    font-size: min(5vw, 1.5em);
 }
 
 nav>ul {
@@ -31,7 +34,7 @@ nav>ul {
     flex-wrap: wrap;
     align-items: center;
     padding-inline-start: 0;
-    margin-block: 0;
+    margin-block: 0px;
     height: 100%;
 }
 nav > ul > li {
@@ -51,4 +54,26 @@ nav > ul > li:hover {
 .profile{
     width: 300px;
     
+}
+section {
+    width: 80%;
+    margin: 0 auto 10px auto;
+    max-width: 600px;
+}
+h1,
+h2 {
+  font-family: Verdana, Tahoma;
+}
+
+h2 {
+  border-bottom: 4px solid #dfdfe2;
+  margin-top: 0px;
+  padding-top: 60px;
+}
+body{
+    background-color: #ebebde;
+    color: #4C3C3C;
+}
+a{
+    text-decoration: none;
 }
