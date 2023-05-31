@@ -1,5 +1,5 @@
-@media (prefers-reduced-motion: no-preference) {
-    * {
+@media (prefers-reduced-motion: no-preference){
+    *{
         scroll-behavior: smooth;
     }
 }
@@ -80,6 +80,7 @@ h2 {
 body {
     background-color: #ebebde;
     color: #4C3C3C;
+    border-bottom: 100px;
 }
 
 a {
